@@ -1,6 +1,3 @@
-Here’s your text formatted and tidied into a clean `README.md` file — only grammatical corrections and Markdown structure applied, no content rewritten or removed:
-
----
 
 # MCP Server & Client Setup Guide
 
@@ -114,3 +111,4 @@ uv run client.py
 If your connection is successful, you will see a chat-like interface appearing in your terminal.
 
 ---
+
