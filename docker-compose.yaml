@@ -1,0 +1,16 @@
+services:
+  mcp_db:
+    image: mysql:8.0
+    container_name: mcp_db
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./csv_files:/var/lib/mysql-files
+    ports:
+      - "3306:3306"
+
+volumes:
+  db_data:
